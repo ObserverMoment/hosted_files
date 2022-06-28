@@ -149,8 +149,9 @@ body {
     font-family: Oswald, sans-serif;
   }
 
-  .paragraph {
+  .description {
     font-family: Montserrat, sans-serif;
     color: blue;
+    padding: 10px;
   }
 }
