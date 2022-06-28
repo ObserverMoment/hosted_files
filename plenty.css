@@ -1,11 +1,8 @@
-* {
-   margin: 0px;
-   padding: 0px;
-}
-
 body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#fff));
   background-image: linear-gradient(180deg, #e0e0e0, #fff);
+  margin: 0px;
+  padding: 0px;
 }
 
 .list {
