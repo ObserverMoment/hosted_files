@@ -1,0 +1,129 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  .section {
+    padding: 10px 20px;
+  }
+
+  .product-name {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+  }
+
+  .made-by {
+    margin-top: 1px;
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+  }
+
+  .company-info {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px 21px;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: bold;
+  }
+
+  .footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px none #000;
+    border-radius: 0px;
+  }
+
+  .text-block {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .text-block-2 {
+    padding: 9px 146px;
+    text-align: center;
+  }
+
+  .section-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 18px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .image {
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .body {
+      cursor: auto;
+    }
+
+    .section {
+      padding: 8px 12px;
+    }
+
+    .company-info {
+      text-align: center;
+    }
+
+    .footer {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    .text-block-2 {
+      padding-right: 13px;
+      padding-left: 13px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .section {
+      padding: 8px 10px;
+    }
+  }
+
+  @media screen and (max-width: 479px) {
+    .body {
+      background-color: #fff;
+      background-image: none;
+    }
+
+    .section {
+      padding: 8px;
+    }
+
+    .product-name {
+      font-family: Oswald, sans-serif;
+    }
+  }
